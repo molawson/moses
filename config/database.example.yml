@@ -1,0 +1,13 @@
+source:
+  adapter: tinytds
+  username: myuser
+  password: sekret
+  host: sqlserver.example.com
+  database: sql_server
+
+destination:
+  adapter: postgres
+  username: myuser
+  password: sekret
+  host: postgres.example.com
+  database: postgres
